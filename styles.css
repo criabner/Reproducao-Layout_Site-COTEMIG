@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.teltopo {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+
+.tele { 
+    float: right;
+    width: 40%;
+    line-height: 2.2;
+}
+
+.tele a:hover {
+    text-decoration: underline;
+}
+
+header { 
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header img { 
+    max-width: 175px;
+    min-width: 145px;
+}
+
+nav {
+    padding: 15px 16%;
+    justify-content: space-between;
+}
+nav, nav ul, nav ul li {
+    display: flex;
+    align-content: center;
+}
+
+nav ul li a {
+    font-size: 14px;
+    display: block;
+    padding: 9.8px 17.5px;
+    transition: 0.1s all ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #40AA0B
+}
+
+.nav-7::before { 
+    margin-left: dashed 1px;
+    content: "";
+    width: 1em;
+    height: 1em;
+    margin: 10px -5px 0 1.3em;
+    display: flex;
+    background: urL(https://cotemig.com.br/assets/img/icons/signin.svg)no-repeat center center/contain;
+}
+
+section.banner {
+    margin-top: -71.92px;
+    width: 100%;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+main h2 { 
+    color: black;
+    font-size: 40px;
+    padding: 40px 20px 0;
+}
+
+main p {
+    color: black;
+    font-size: 18px;
+    padding: 0 18px;
+    margin: 10px 250px 48px;
+}
+
+.main-items { 
+    display: flex;
+    flex-wrap: no-wrap;
+}
+
+.main-item {
+    margin: 0 0.9em 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 284px;
+    vertical-align: top;
+    border-radius: 0.75em;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    white-space: normal;
+}
+
+.img-div1 { 
+    overflow: hidden;
+    max-width: 284px;
+    max-height: 175px;
+    background-image: url(img-div1.jpg);
+    background-size: 132%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-div2 { 
+    overflow: hidden;
+    height: 175px;
+    background-image: url(https://www.cotemig.com.br/static/courseType/desktopimage-1621255560657.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-div3 { 
+    overflow: hidden;
+    height: 175px;
+    background-image: url(https://www.cotemig.com.br/static/courseType/desktopimage-1621252590289.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-div4 { 
+    overflow: hidden;
+    height: 175px;
+    background-image: url(https://www.cotemig.com.br/assets/img/banner/automacao-residencial-1140.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+div.img-div1 div, div.img-div2 div, div.img-div3 div, div.img-div4 div { 
+    margin-top: 32%;
+    bottom: 0px;
+    text-align: left;
+    padding: 16px;
+}
+
+
+div.img-div1 div h3, div.img-div2 div h3, div.img-div3 div h3, div.img-div4 div h3 {
+    font-size: 22px;
+} 
+
+ul li, a.banner { 
+    font-weight: 700 }
+
+ul a li {
+    color: black;
+    background: white;
+    display: flex;
+}
+
+ul a li img { 
+    border-radius: 8px;
+}
+
+ul a li div { 
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul a li div h4 {
+    padding: 4px 0 0;
+    align-content: center;
+    justify-content: center;
+}
+
+ul a li {
+    padding: 10px;
+}
+
+h4 {
+    color: black;
+    font-size: 13px;
+    text-align: left;
+}
+
+figure { 
+    display: flex;
+}
+
+img.banner {
+    top: 0;
+    max-width: 100%;
+}
+
+div.banner-container {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+div.banner-container h2 {
+    font-size: 38px;
+}
+
+div.banner-container p {
+    margin: 18px 0px 0px;
+    font-size: 18px;
+}
+
+a.banner {
+    margin: 42px 0 0;
+    padding: 14px;
+    display: block;
+    text-align: center;
+    background: #40aa0b;
+    border-radius: 8px;
+}
+
+
+b.li-arrow {
+    position: relative;
+    right: 0;
+    display: block;
+    min-width: 16px;
+    justify-self: end;
+    align-self: normal;
+    margin: 0.8em 0 0;
+    background: url(https://www.cotemig.com.br/assets/img/icons/arrow-right.svg) no-repeat center right/90%;
+    transition: all .2s linear;
+    float: right;
+}
+
+b.li-arrow:hover {
+    transform: translateX(5px);
+}
+
+li.main-li {
+    justify-content: space-between;
+}
+
+li.main-li div h4 {
+        transition: 0.3s all ease-in-out;
+}
+
+li.main-li div h4:hover {
+    color: #40AA0B;
+}
+
+div.select-option {
+    text-align: left;
+    max-height: 60px;
+}
+
+div.section-unitys {
+    text-align: center;
+    margin: auto;
+    max-width: 75em;
+}
+
+div.section-unitys h2{
+    margin: 50px 0 40px;
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+div.section-unitys p {
+    margin: 0 46.5px 36px;
+    color: #424242;
+    font-size: 18px;
+}
+
+strong {
+    color: #424242;
+    font-weight: bold;
+}
+
+div.container-unitys {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container-unity1 {
+    max-width: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+
+div.container-unity1 h4 {
+    margin: 0 0 10px; 
+    font-size: 20px;    
+}
+
+div.container-unity1 p { 
+    font-size: 16px;
+    margin: 0;
+}
+
+div.adress {
+    padding: 10px;
+}
+
+div.adress p { 
+    line-height: 2;
+}
+
+div.adress p:before { 
+    line-height: 2;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    margin: -3px 7px 0 0;
+    background: url(https://www.cotemig.com.br/assets/img/icons/location.svg) no-repeat center center/cover;
+}
+
+section.telephones {
+    width: 100%;
+    text-align: center;
+}
+
+div.telephones-box {
+    padding: 36px 0 50px;
+}
+
+div.telephones-box h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+div.telephones-box a {
+    color: #40AA0B;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+section.blog {
+    width: 100%;
+    margin: 2.5% 0;
+}
+
+div.blog-content {
+    display: flex;
+    width: 75em;
+    margin:auto;
+    justify-content: space-between;
+}
+
+
+section.blog h2 {
+    color: black;
+    margin: 3%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+div.blog-box {
+    border-radius: 8px;
+    width: 18em;
+    height: 18em;
+    overflow: hidden;
+    position: relative;
+}
+
+img.img-box {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.blog-box1 {
+    padding: 20px;
+    margin-top: 55%;
+}
+
+.blog-box2 {
+    padding: 20px;
+    margin-top: 54.5%;
+}
+
+.blog-box3 {
+    padding: 20px;
+    margin-top: 46.5%;
+}
+
+.blog-box_content h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.blog-box_content em {
+    font-size: 13px;
+}
+
+footer {
+    background-color: black;
+}
+
+div.footer-call {
+    margin:;
+    max-width: 25%;
+}
+
+div.footer-call p+p {
+    padding: 10px 0 0 0;
+}
+
+div.container-footer {
+    padding: 40px 16px 32px;
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+div.container-content {
+    display: flex;
+    margin: 0 0 0 15%;
+}
+
+div.container-content2 {
+    max-width: 70%;
+    display: flex;
+    text-align: left;
+    margin: auto;
+}
+
+div.footer-logo, div.footer-socials1, div.footer-socials2 {
+    padding: 25px;
+}
+
+div.container-content ul li strong, div.footer-call p strong {
+    font-size: 18px;
+    color: #fff;
+}
+
+div.container-content ul li {
+    padding: 10px 55px 0 15px;
+}
+
+div.container-content ul li a, div.footer-call p {
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: bold;
+    color: #BDBDBD;
+}
+
+div.footer-socials1 li, div.footer-socials2 li {
+    display: inline-block;
+    margin: 5px;
+}
+
+div.footer-socials1 li a, div.footer-socials2 li a {
+    font-weight: bold;
+    color: #424242;
+    font-size: 11px;
+}
+
+div.footer-socials1 p, div.footer-socials2 p {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div.footer-socials1 li a:before, div.footer-socials2 li a:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+    border-radius: 8px;
+}
+
+#creation {
+    display: block;
+    width: 100%;
+    margin: 1.25em 0;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+}
+
+div.footer-logo {
+    width: 345px;
+    height: 176px;
+}
+
+div.footer-logo p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+#footer-logo {
+    max-width: 115px;
+}
+
+a.facebook:before {
+    background: url(https://www.cotemig.com.br/assets/img/icons/fb-icon.svg)#4460a0 no-repeat center center;
+}
+
+a.instagram:before {
+    background: url(https://www.cotemig.com.br/assets/img/icons/insta.svg)#fff no-repeat center center;
+}
+
+a.linkedin:before {
+    background: url(https://cotemig.com.br/assets/img/icons/linkedin.svg)#007ab9 no-repeat center center;
+}
+
+a.twitter:before {
+    background: url(https://cotemig.com.br/assets/img/icons/twitter.svg)#00aaec no-repeat center center;
+}
+
